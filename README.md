@@ -10,6 +10,7 @@ LSTM Model:
 - Used for analyzing sequential data and capturing temporal dependencies in error logs.
 - The input consisted of sequences of error events combined with corresponding textual descriptions.
 - Hyperparameters such as the number of layers, neurons per layer, optimizer, learning rate, and batch size were tuned to optimize model performance.
+
 CRF Model:
 - Designed to label sequences based on the relationships between event attributes.
 - Utilized both observation-level and sequence-level feature functions to encode the characteristics of event sequences.
